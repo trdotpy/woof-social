@@ -16,17 +16,17 @@ export default function Notifications() {
                 src="https://res.cloudinary.com/drij60fru/image/upload/v1669238522/1408462825000-NG-125-Cesar-Millan-3_c5gzpz.webp"
                 className="h-9 w-9 rounded-full shadow-md"
               />
-              <h3 className="hidden text-sm text-gray-600 lg:block">
-                <span className="font-bold">Cesar Milan</span> wants to add you
-                as a friend
+              <h3 className="hidden text-sm text-gray-600 md:block">
+                <span className="font-bold">Cesar Milan</span> sent you a friend
+                request.
               </h3>
             </div>
 
-            <div className="flex gap-x-3">
+            <div className="flex flex-wrap justify-center gap-x-3 gap-y-1">
               <button className="rounded-lg bg-[#1877F2] px-8 py-2 text-sm font-medium text-gray-100 hover:brightness-125">
                 Accept
               </button>
-              <button className="rounded-lg bg-gray-200 px-8 py-2 text-sm font-medium text-gray-800 hover:brightness-125">
+              <button className="rounded-lg bg-gray-200 px-8 py-2 text-sm font-medium text-gray-800 hover:bg-gray-300">
                 Decline
               </button>
             </div>
@@ -36,17 +36,17 @@ export default function Notifications() {
                 src="https://res.cloudinary.com/drij60fru/image/upload/v1669093298/1351058_1419981_zoomed.0_yflhau.jpg"
                 className="h-9 w-9 rounded-full shadow-md"
               />
-              <h3 className="hidden text-sm text-gray-600 lg:block">
-                <span className="font-bold">Bojack Horseman</span> wants to add
-                you as a friend
+              <h3 className="hidden text-sm text-gray-600 md:block">
+                <span className="font-bold">Bojack Horseman</span> sent you a
+                friend request.
               </h3>
             </div>
 
-            <div className="flex gap-x-3">
+            <div className="flex flex-wrap justify-center gap-x-3 gap-y-1">
               <button className="rounded-lg bg-[#1877F2] px-8 py-2 text-sm font-medium text-gray-100 hover:brightness-125">
                 Accept
               </button>
-              <button className="rounded-lg bg-gray-200 px-8 py-2 text-sm font-medium text-gray-800 hover:brightness-125">
+              <button className="rounded-lg bg-gray-200 px-8 py-2 text-sm font-medium text-gray-800 hover:bg-gray-300">
                 Decline
               </button>
             </div>

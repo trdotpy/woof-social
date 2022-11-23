@@ -54,9 +54,7 @@ export default function AddPost() {
               src={session?.user?.image}
               className="h-8 w-8 cursor-pointer rounded-full"
             />
-          ) : (
-            <FaRegUserCircle className="h-7 w-7 cursor-pointer" />
-          )}
+          ) : null}
           <input
             type="text"
             placeholder="What's on your mind?"

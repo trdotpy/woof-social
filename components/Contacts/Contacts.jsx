@@ -52,7 +52,7 @@ export default function Contacts() {
                 alt="user"
                 className="h-9 w-9 rounded-full shadow-md"
               />
-              <BsThreeDots className="absolute right-0 h-5 w-8 rounded-md text-gray-400 hover:border" />
+              <BsThreeDots className="absolute right-0 hidden h-5 w-8 rounded-md text-gray-400 hover:border md:block" />
               <p className="hidden cursor-pointer text-sm font-semibold text-gray-600 hover:text-blue-500 hover:underline md:inline-flex">
                 {profile.name}
               </p>

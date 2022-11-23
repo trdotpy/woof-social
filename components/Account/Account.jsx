@@ -27,13 +27,16 @@ export default function Account() {
           </button>
         </div>
       ) : (
-        <div className="flex flex-col items-center">
-          <button
-            className="text-md mt-2 rounded-md bg-[#1877F2] px-6 py-2 font-medium text-gray-100 hover:brightness-125"
-            onClick={signIn}
-          >
-            Sign In
-          </button>
+        <div className="flex flex-col items-center text-gray-400">
+          <h2 className="flex-wrap text-xs">
+            <span
+              className="cursor-pointer font-medium text-gray-500 hover:text-[#1877F2] hover:underline"
+              onClick={signIn}
+            >
+              Sign in
+            </span>{' '}
+            to view account details.
+          </h2>
         </div>
       )}
     </div>
