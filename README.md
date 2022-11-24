@@ -16,6 +16,10 @@
 
 <img src="./public/woof-ss-mobile.png">
 
+### Design Inspiration
+
+<img src="./public/design.png">
+
 ## Overview
 
 Woof Social is a social network for dogs, inspired by Facebook.
