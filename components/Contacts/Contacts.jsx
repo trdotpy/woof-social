@@ -46,7 +46,7 @@ export default function Contacts() {
       <div className="flex items-center justify-between p-5">
         <div className="h-auto w-full">
           {profiles.map((profile) => (
-            <div className="relative mb-3 flex cursor-pointer items-center justify-center py-1 md:justify-start md:space-x-2">
+            <div className="relative mb-3 flex cursor-pointer items-center justify-center py-1 md:justify-start md:space-x-2" key={profile.id}>
               <img
                 src={profile.image}
                 alt="user"
