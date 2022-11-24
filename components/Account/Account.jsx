@@ -5,7 +5,8 @@ export default function Account() {
   const { data: session } = useSession()
 
   return (
-    <div className="hidden rounded-md bg-white p-5 shadow-md md:block">
+    // <div className="w-2/3 rounded-md bg-white p-5 shadow-md">
+    <div className="rounded-md bg-white p-5 shadow-md">
       {session ? (
         <div className="flex flex-col items-center">
           <img
@@ -27,7 +28,7 @@ export default function Account() {
           </button>
         </div>
       ) : (
-        <div className="flex flex-col items-center text-gray-400">
+        <div className="hidden flex-col items-center text-gray-400 sm:flex">
           <h2 className="flex-wrap text-xs">
             <span
               className="cursor-pointer font-medium text-gray-500 hover:text-[#1877F2] hover:underline"

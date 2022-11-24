@@ -4,7 +4,7 @@ import { BsChat } from 'react-icons/bs'
 
 export default function News() {
   return (
-    <div className="max-w-lg rounded-md bg-white p-4 text-gray-700 shadow-md">
+    <div className="rounded-md bg-white p-4 text-gray-700 shadow-md">
       <div className="space-y-4">
         <div className="space-y-2">
           <img
@@ -19,7 +19,7 @@ export default function News() {
         <div className="space-y-2">
           <a href="/" className="block">
             <h3 className="text-md cursor-pointer font-semibold hover:underline">
-              Breaking News Headline
+              News Headline
             </h3>
           </a>
           <p className="text-xs leading-snug text-gray-500">

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Stories({ name, profile, storyimg }) {
   return (
-    <div className="overflow-x relative h-10 w-10 transform cursor-pointer transition duration-200 ease-in hover:scale-105 hover:brightness-110 sm:h-[60px] sm:w-[60px] md:h-20 md:w-20 lg:h-[200px] lg:w-[130px] lg:p-2">
+    <div className="overflow-x relative h-12 w-12 transform cursor-pointer transition duration-200 ease-in hover:scale-105 hover:brightness-110 sm:h-[60px] sm:w-[60px] md:h-20 md:w-20 lg:h-[200px] lg:w-[130px] lg:p-2">
       <img
         src={profile}
         alt="profile pic"

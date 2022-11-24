@@ -42,11 +42,11 @@ const profiles = [
 
 export default function Contacts() {
   return (
-    <div className="h-1/2 w-full rounded-lg bg-white shadow-md">
+    <div className="rounded-lg bg-white shadow-md">
       <div className="flex items-center justify-between p-5">
         <div className="h-auto w-full">
           {profiles.map((profile) => (
-            <div className="relative mb-3 flex cursor-pointer items-center justify-center whitespace-nowrap py-1 md:justify-start md:space-x-2">
+            <div className="relative mb-3 flex cursor-pointer items-center justify-center py-1 md:justify-start md:space-x-2">
               <img
                 src={profile.image}
                 alt="user"

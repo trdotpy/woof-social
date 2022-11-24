@@ -19,28 +19,31 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <main className="flex bg-gray-100 p-6">
-        <div className="flex w-1/6 flex-col space-y-4">
-          <h1 className="text-sm font-medium uppercase text-gray-400">
+      <main className="flex bg-gray-100 p-8">
+        <section className="hidden h-screen w-1/5 sm:inline-block">
+          <h1 className="pb-2 text-sm font-medium uppercase text-gray-400">
             Account
           </h1>
           <Account />
-          <h1 className="text-sm font-medium uppercase text-gray-400">News</h1>
+          <h1 className="pt-8 pb-2 text-sm font-medium uppercase text-gray-400">
+            News
+          </h1>
           <News />
-        </div>
+        </section>
 
-        <Timeline />
-
-        <div className="flex w-1/5 flex-col space-y-4">
-          <h1 className="hidden text-sm font-medium uppercase text-gray-400 md:block">
+        <section className="h-screen flex-grow pb-44">
+          <Timeline />
+        </section>
+        <section className="hidden h-screen w-1/5 sm:inline-block">
+          <h1 className="pb-2 text-sm font-medium uppercase text-gray-400">
             Friend Requests
           </h1>
           <Notifications />
-          <h1 className="text-sm font-medium uppercase text-gray-400">
+          <h1 className="pt-8 pb-2 text-sm font-medium uppercase text-gray-400">
             Contacts
           </h1>
           <Contacts />
-        </div>
+        </section>
       </main>
     </div>
   )

@@ -60,7 +60,7 @@ export default function Posts({
             <img
               src={thumbnail}
               alt="Post image"
-              className="h-64 w-96 rounded-md border border-gray-400"
+              className="object-contain rounded-md border border-gray-400"
             />
           </div>
         ) : null}

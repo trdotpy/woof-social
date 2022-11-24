@@ -19,7 +19,7 @@ export default function Navbar() {
       </section>
 
       <section className="pl-44">
-        <nav className="flex space-x-6">
+        <nav className="hidden space-x-6 md:flex">
           <Link
             href="/"
             className="cursor-pointer px-4 py-1 text-2xl font-semibold text-gray-600 hover:text-blue-500"
@@ -56,16 +56,11 @@ export default function Navbar() {
       </section>
 
       <section className="flex items-center justify-between gap-x-4">
-        <div className="flex items-center rounded-lg border-none bg-gray-100 p-2 px-6">
+        {/* <div className="flex items-center rounded-lg border-none bg-gray-100 p-2 px-6">
           <BiSearch className="h-4 text-gray-500" />
-          <input
-            type="text"
-            placeholder="Search"
-            className="ml-1 hidden border-none bg-transparent text-sm placeholder-gray-500 outline-none md:inline-flex"
-          />
-        </div>
+        </div> */}
 
-        <div>
+        <section>
           {session ? (
             <div className="flex items-center gap-x-2">
               <img
@@ -73,7 +68,7 @@ export default function Navbar() {
                 className="h-9 w-9 cursor-pointer rounded-full"
               />
               <button
-                className="rounded-lg bg-[#1877F2] px-6 py-2 text-sm font-medium text-gray-100 hover:brightness-125"
+                className="whitespace-nowrap rounded-lg bg-[#1877F2] px-6 py-2 text-sm font-medium text-gray-100 hover:brightness-125"
                 onClick={signOut}
               >
                 Sign Out
@@ -89,7 +84,7 @@ export default function Navbar() {
               </button>
             </div>
           )}
-        </div>
+        </section>
       </section>
     </header>
   )

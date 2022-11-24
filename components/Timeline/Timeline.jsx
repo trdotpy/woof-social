@@ -41,13 +41,6 @@ const stories = [
       'https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     img: 'https://images.pexels.com/photos/3265278/pexels-photo-3265278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
-  {
-    id: 6,
-    name: 'Jimothee Chalamet',
-    profile:
-      'https://images.pexels.com/photos/3114143/pexels-photo-3114143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    img: 'https://images.pexels.com/photos/662417/pexels-photo-662417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-  },
 ]
 
 export default function Timeline() {
@@ -65,8 +58,8 @@ export default function Timeline() {
     }
   }, [db])
   return (
-    <div className="scrollbar-hide h-screen flex-grow overflow-y-auto bg-gray-100 px-4 pt-3 pb-44">
-      <div className="flex justify-center space-x-4">
+    <div className="overflow-y-auto bg-gray-100 px-4 pt-3 pb-28 scrollbar-hide">
+      <div className="flex justify-center space-x-2">
         {stories.map((story) => (
           <Stories
             key={story.id}

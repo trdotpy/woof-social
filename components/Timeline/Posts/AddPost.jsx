@@ -48,7 +48,7 @@ export default function AddPost() {
   return (
     <div className="mx-auto mt-5 max-w-[300px] rounded-lg bg-white text-gray-600 shadow-md sm:mt-7 sm:max-w-[500px] md:max-w-[600px]">
       <div className="flex flex-col items-center justify-center space-y-3 p-3 sm:flex-row sm:space-y-0 sm:space-x-3">
-        <form className="flex w-full items-center gap-x-2 sm:w-auto sm:flex-1">
+        <form className="flex w-full items-center justify-between gap-x-2 sm:w-auto sm:flex-1">
           {session ? (
             <img
               src={session?.user?.image}
@@ -57,13 +57,12 @@ export default function AddPost() {
           ) : null}
           <input
             type="text"
-            placeholder="What's on your mind?"
-            className="flex-grow rounded-lg border-none bg-gray-100 px-2 py-2 text-center text-sm font-medium outline-none focus:outline-none"
+            placeholder="What's up?"
+            className="w-full rounded-lg border-none bg-gray-100 px-2 py-2 text-center text-sm font-medium outline-none focus:outline-none"
             ref={textRef}
           />
-
           <button
-            className="rounded-lg bg-[#1877F2] px-8 py-2 text-sm font-medium text-gray-100 hover:brightness-125"
+            className="rounded-lg bg-[#1877F2] px-6 py-2 text-sm font-medium text-gray-100 hover:brightness-125"
             type="submit"
             onClick={sendPost}
           >
