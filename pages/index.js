@@ -20,7 +20,7 @@ export default function Home() {
 
       <Navbar />
       <main className="flex bg-gray-100 p-8">
-        <section className="hidden h-screen w-1/5 sm:inline-block">
+        <section className="hidden h-screen w-1/5 lg:inline-block">
           <h1 className="pb-2 text-sm font-medium uppercase text-gray-400">
             Account
           </h1>
@@ -34,7 +34,7 @@ export default function Home() {
         <section className="h-screen flex-grow pb-44">
           <Timeline />
         </section>
-        <section className="hidden h-screen w-1/5 sm:inline-block">
+        <section className="hidden h-screen w-1/5 lg:inline-block">
           <h1 className="pb-2 text-sm font-medium uppercase text-gray-400">
             Friend Requests
           </h1>
