@@ -18,7 +18,9 @@
 
 ## Overview
 
-This is a social network where the users are animals. This was a fun idea was inspired by Facebook.
+This is a social network where the users are animals inspired by Facebook.
+
+**Note: This was just for fun - this app is not actually intended for dogs to use.**
 
 The home page consists of user stories, posts, notifications, news, a friends list and account info.
 
