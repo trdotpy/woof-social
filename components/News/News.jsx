@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { BiUpvote, BiDownvote, BiShareAlt } from 'react-icons/bi'
 import { BsChat } from 'react-icons/bs'
@@ -17,11 +18,11 @@ export default function News() {
           </div>
         </div>
         <div className="space-y-2">
-          <a href="/" className="block">
+          <Link href="/" className="block">
             <h3 className="text-md cursor-pointer font-semibold hover:underline">
               News Headline
             </h3>
-          </a>
+          </Link>
           <p className="text-xs leading-snug text-gray-500">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat,
             excepturi.
