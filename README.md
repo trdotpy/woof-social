@@ -18,7 +18,7 @@
 
 ## Overview
 
-This is a social network where the users are animals inspired by Facebook.
+Woof Social is a social network for dogs, inspired by Facebook.
 
 **Note: This was just for fun - this app is not actually intended for dogs to use.**
 
