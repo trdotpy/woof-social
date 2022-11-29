@@ -9,8 +9,8 @@ export default function News() {
       <div className="space-y-4">
         <div className="space-y-2">
           <img
-            src="https://source.unsplash.com/random/480x360/?4"
-            alt=""
+            src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
+            alt="news"
             className="block h-72 w-full object-cover object-center shadow-md"
           />
           <div className="flex items-center text-xs text-gray-400">
